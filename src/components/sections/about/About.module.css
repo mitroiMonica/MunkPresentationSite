@@ -1,0 +1,23 @@
+.svgTask {
+  width: 35vw;
+  height: auto;
+  margin: 0;
+}
+
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+  justify-items: center;
+  align-items: center;
+  height: 92vh;
+}
+
+@media only screen and (max-width: 56.2rem) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
+  .svgTask {
+    display: none;
+  }
+}

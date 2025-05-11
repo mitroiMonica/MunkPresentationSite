@@ -1,0 +1,31 @@
+@import url("./../appColors.css");
+
+.linkStyle {
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.linkStyle:hover {
+  color: var(--primary-color);
+}
+
+.activeLink {
+  color: var(--primary-color);
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: var(--primary-color);
+}
+
+.desktopStyle {
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-family: var(--primary-font);
+}
+
+.desktopStyle:hover {
+  background-color: #efefefd0;
+  border-radius: 0.5rem;
+}

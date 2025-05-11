@@ -1,0 +1,11 @@
+:root {
+  --primary-color: 00, 00, 00;
+  --secondary-color: ff, ff, ff;
+  /* --primary-color: 3A, 0C, A3;
+  --secondary-color: F7, 25, 85; */
+  --text1-color: #fff;
+  --text2-color: #000;
+  --primary-font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+}

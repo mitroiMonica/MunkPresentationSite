@@ -1,0 +1,30 @@
+@import url("./../../appColors.css");
+
+.featuresContainer {
+  background-color: rgb(var(--primary-color));
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsContainer {
+  padding: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 2vw;
+}
+
+@media only screen and (max-width: 56.2rem) {
+  .featuresContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .cardsContainer {
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vw;
+  }
+}
