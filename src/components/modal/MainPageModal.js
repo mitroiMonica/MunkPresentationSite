@@ -34,12 +34,12 @@ const MainPageModal = ({ card }) => {
             />
           )}
           <SCardContent>
-            <Typography gutterBottom variant="h6">
+            <Typography gutterBottom variant={!isMatch ? "h6" : "body2"}>
               {card.title}
             </Typography>
             {!isMatch && (
               <Typography variant="body2" color="text.secondary">
-                {card.text.substring(0, Math.min(card.text.length, 75)) +
+                {card.text.substring(0, Math.min(card.text.length, 85)) +
                   " ..."}
               </Typography>
             )}
